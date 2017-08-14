@@ -1,0 +1,36 @@
+body {
+  font-family: Consolas;
+}
+
+.cabecalho-e-rodape {
+  background-color: navy;
+  color: white;
+}
+
+.cabecalho-e-rodape h2 {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.livro {
+  /* border: 1px solid red; */
+  display: inline-block;
+  position: relative;
+  height: 160px;
+  width: 250px;
+  margin-bottom: 10px;
+}
+
+.livro img {
+  position: absolute;
+  left: 10px;
+}
+
+.livro ul {
+  position: absolute;
+  left: 123px;
+}
+
